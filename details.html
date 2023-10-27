@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #b7fdff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        table {
+            width: 50%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            border: 2px solid #0e0e0f;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #ff004c;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Details</h1>
+    <table id="detailsTable">
+        <tr>
+            <th>Attribute</th>
+            <th>Details</th>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><span id="name"></span></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><span id="email"></span></td>
+        </tr>
+        <tr>
+            <td>School/College:</td>
+            <td><span id="school"></span></td>
+        </tr>
+        <tr>
+            <td>Event Choice:</td>
+            <td><span id="event"></span></td>
+        </tr>
+    </table>
+
+    <script src="details.js"></script>
+</body>
+</html>
+
+
+
+
